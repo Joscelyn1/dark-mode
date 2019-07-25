@@ -2,8 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
-html,
+​ html,
 body,
 div,
 span,
@@ -127,45 +126,41 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+​
 /* General Styles */
-
+​
 * {
   box-sizing: border-box;
 }
-
-html {
+​ html {
   font-size: 62.5%;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
 }
-
-h1 {
+​ h1 {
   font-size: 2.4rem;
 }
-
-h2 {
+​ h2 {
   font-size: 1.8rem;
 }
-
-h4 {
+​ h4 {
   font-size: 1.4rem;
 }
-
-img {
+​ img {
   height: auto;
   width: 100%;
 }
-
-.App {
+​ .flex-spacer {
+  width: 100%;
+}
+​ .App {
   font-family: sans-serif;
   text-align: center;
   width: 100%;
 }
-
-.navbar {
+​ .navbar {
   align-items: center;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(221, 221, 221);
   display: flex;
   height: 70px;
   justify-content: space-between;
@@ -175,8 +170,7 @@ img {
   -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
   box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
 }
-
-.dark-mode__toggle {
+​ .dark-mode__toggle {
   background: papayawhip;
   border-radius: 50px;
   border: 1px solid black;
@@ -184,8 +178,7 @@ img {
   position: relative;
   width: 40px;
 }
-
-.toggle {
+​ .toggle {
   background: #f68819;
   border-radius: 50px;
   height: 18px;
@@ -194,35 +187,47 @@ img {
   transition: 0.2s;
   width: 20px;
 }
-
-.toggled {
+​ .toggled {
   left: 18px;
 }
-
-.charts {
+​ .charts {
   width: 80%;
   margin: 0 auto;
 }
-
-.chart__container {
+​ .chart__container {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 50px 0;
+  margin: 50px 0 0;
   width: 100%;
 }
-
-.coin__title {
+​ .chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 16px;
+}
+​ .coin__title {
+  display: block;
+  margin-left: 8px;
+  min-width: 160px;
+  text-align: left;
+}
+​ .coin__symbol {
   display: block;
   margin-bottom: 10px;
 }
-
-.coin__symbol {
-  display: block;
-  margin-bottom: 10px;
-}
-
-.coin__logo {
+​ .coin__logo {
   width: 50px;
+}
+​ .dark-mode {
+  color: #fff;
+  background-color: #313843;
+  ​ .navbar {
+    background-color: #1f2022;
+    border: none;
+  }
 }
