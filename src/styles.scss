@@ -2,7 +2,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-​ html,
+
+html,
 body,
 div,
 span,
@@ -126,39 +127,47 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-​
+
 /* General Styles */
-​
+
 * {
   box-sizing: border-box;
 }
-​ html {
+
+html {
   font-size: 62.5%;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
 }
-​ h1 {
+
+h1 {
   font-size: 2.4rem;
 }
-​ h2 {
+
+h2 {
   font-size: 1.8rem;
 }
-​ h4 {
+
+h4 {
   font-size: 1.4rem;
 }
-​ img {
+
+img {
   height: auto;
   width: 100%;
 }
-​ .flex-spacer {
+
+.flex-spacer {
   width: 100%;
 }
-​ .App {
+
+.App {
   font-family: sans-serif;
   text-align: center;
   width: 100%;
 }
-​ .navbar {
+
+.navbar {
   align-items: center;
   border-bottom: 1px solid rgb(221, 221, 221);
   display: flex;
@@ -170,7 +179,8 @@ table {
   -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
   box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
 }
-​ .dark-mode__toggle {
+
+.dark-mode__toggle {
   background: papayawhip;
   border-radius: 50px;
   border: 1px solid black;
@@ -178,7 +188,8 @@ table {
   position: relative;
   width: 40px;
 }
-​ .toggle {
+
+.toggle {
   background: #f68819;
   border-radius: 50px;
   height: 18px;
@@ -187,14 +198,17 @@ table {
   transition: 0.2s;
   width: 20px;
 }
-​ .toggled {
+
+.toggled {
   left: 18px;
 }
-​ .charts {
+
+.charts {
   width: 80%;
   margin: 0 auto;
 }
-​ .chart__container {
+
+.chart__container {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -202,7 +216,8 @@ table {
   margin: 50px 0 0;
   width: 100%;
 }
-​ .chart-header {
+
+.chart-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -210,23 +225,28 @@ table {
   max-width: 900px;
   margin-bottom: 16px;
 }
-​ .coin__title {
+
+.coin__title {
   display: block;
   margin-left: 8px;
   min-width: 160px;
   text-align: left;
 }
-​ .coin__symbol {
+
+.coin__symbol {
   display: block;
   margin-bottom: 10px;
 }
-​ .coin__logo {
+
+.coin__logo {
   width: 50px;
 }
-​ .dark-mode {
+
+.dark-mode {
   color: #fff;
   background-color: #313843;
-  ​ .navbar {
+
+  .navbar {
     background-color: #1f2022;
     border: none;
   }
